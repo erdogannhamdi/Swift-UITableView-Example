@@ -1,0 +1,1377 @@
+[{
+  "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/AppDelegate.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 1419,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>@UIApplicationMain class AppDelegate : <Type usr=\"c:objc(cs)UIResponder\">UIResponder<\/Type>, <Type usr=\"c:objc(pl)UIApplicationDelegate\">UIApplicationDelegate<\/Type><\/Declaration>",
+        "key.attributes" : [
+          {
+            "key.attribute" : "source.decl.attribute.UIApplicationMain",
+            "key.length" : 18,
+            "key.offset" : 158
+          }
+        ],
+        "key.bodylength" : 1184,
+        "key.bodyoffset" : 232,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 11,
+            "key.offset" : 196
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 21,
+            "key.offset" : 209
+          }
+        ],
+        "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/AppDelegate.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@UIApplicationMain<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>AppDelegate<\/decl.name> : <ref.class usr=\"c:objc(cs)UIResponder\">UIResponder<\/ref.class>, <ref.protocol usr=\"c:objc(pl)UIApplicationDelegate\">UIApplicationDelegate<\/ref.protocol><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIResponder"
+          },
+          {
+            "key.name" : "UIApplicationDelegate"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 1240,
+        "key.name" : "AppDelegate",
+        "key.namelength" : 11,
+        "key.nameoffset" : 183,
+        "key.offset" : 177,
+        "key.parsed_declaration" : "class AppDelegate: UIResponder, UIApplicationDelegate",
+        "key.parsed_scope.end" : 36,
+        "key.parsed_scope.start" : 12,
+        "key.runtime_name" : "_TtC4main11AppDelegate",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func application(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>, didFinishLaunchingWithOptions launchOptions: [<Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>.<Type usr=\"c:@T@UIApplicationLaunchOptionsKey\">LaunchOptionsKey<\/Type> : Any]?) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+            "key.bodylength" : 95,
+            "key.bodyoffset" : 381,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/AppDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>application<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>didFinishLaunchingWithOptions<\/decl.var.parameter.argument_label> <decl.var.parameter.name>launchOptions<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class>.<ref.struct usr=\"c:@T@UIApplicationLaunchOptionsKey\">LaunchOptionsKey<\/ref.struct> : Any]?<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 237,
+            "key.name" : "application(_:didFinishLaunchingWithOptions:)",
+            "key.namelength" : 126,
+            "key.nameoffset" : 245,
+            "key.offset" : 240,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)application:didFinishLaunchingWithOptions:"
+              }
+            ],
+            "key.parsed_declaration" : "func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool",
+            "key.parsed_scope.end" : 19,
+            "key.parsed_scope.start" : 16,
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:\">application(_:configurationForConnecting:options:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:\">application(_:didDiscardSceneSessions:)<\/RelatedName>"
+              }
+            ],
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppDelegate) -> (UIApplication, [UIApplication.LaunchOptionsKey : Any]?) -> Bool",
+            "key.typeusr" : "$s_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0f6LaunchE3KeyaypGSgtcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 30,
+            "key.name" : "MARK: UISceneSession Lifecycle",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 486
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func application(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>, configurationForConnecting connectingSceneSession: <Type usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/Type>, options: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>.<Type usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/Type>) -&gt; <Type usr=\"c:objc(cs)UISceneConfiguration\">UISceneConfiguration<\/Type><\/Declaration>",
+            "key.bodylength" : 258,
+            "key.bodyoffset" : 697,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/AppDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>application<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>configurationForConnecting<\/decl.var.parameter.argument_label> <decl.var.parameter.name>connectingSceneSession<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>options<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class>.<ref.class usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)UISceneConfiguration\">UISceneConfiguration<\/ref.class><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 434,
+            "key.name" : "application(_:configurationForConnecting:options:)",
+            "key.namelength" : 144,
+            "key.nameoffset" : 527,
+            "key.offset" : 522,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)application:configurationForConnectingSceneSession:options:"
+              }
+            ],
+            "key.parsed_declaration" : "func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration",
+            "key.parsed_scope.end" : 27,
+            "key.parsed_scope.start" : 23,
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:\">application(_:didFinishLaunchingWithOptions:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:\">application(_:didDiscardSceneSessions:)<\/RelatedName>"
+              }
+            ],
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppDelegate) -> (UIApplication, UISceneSession, UIScene.ConnectionOptions) -> UISceneConfiguration",
+            "key.typeusr" : "$s_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0E7SessionCSo0E17ConnectionOptionsCtcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func application(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>, didDiscardSceneSessions sceneSessions: <Type usr=\"s:Sh\">Set<\/Type>&lt;<Type usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/Type>&gt;)<\/Declaration>",
+            "key.bodylength" : 342,
+            "key.bodyoffset" : 1070,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/AppDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>application<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>didDiscardSceneSessions<\/decl.var.parameter.argument_label> <decl.var.parameter.name>sceneSessions<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sh\">Set<\/ref.struct>&lt;<ref.class usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/ref.class>&gt;<\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 451,
+            "key.name" : "application(_:didDiscardSceneSessions:)",
+            "key.namelength" : 101,
+            "key.nameoffset" : 967,
+            "key.offset" : 962,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)application:didDiscardSceneSessions:"
+              }
+            ],
+            "key.parsed_declaration" : "func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>)",
+            "key.parsed_scope.end" : 33,
+            "key.parsed_scope.start" : 29,
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:\">application(_:didFinishLaunchingWithOptions:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:\">application(_:configurationForConnecting:options:)<\/RelatedName>"
+              }
+            ],
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppDelegate) -> (UIApplication, Set<UISceneSession>) -> ()",
+            "key.typeusr" : "$s_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:"
+          }
+        ],
+        "key.typename" : "AppDelegate.Type",
+        "key.typeusr" : "$s19TableViewController11AppDelegateCmD",
+        "key.usr" : "c:@M@TableViewController@objc(cs)AppDelegate"
+      }
+    ]
+  }
+}, {
+  "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 2320,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class UrunListesiTableViewController : <Type usr=\"c:objc(cs)UITableViewController\">UITableViewController<\/Type><\/Declaration>",
+        "key.bodylength" : 2045,
+        "key.bodyoffset" : 273,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 21,
+            "key.offset" : 250
+          }
+        ],
+        "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>UrunListesiTableViewController<\/decl.name> : <ref.class usr=\"c:objc(cs)UITableViewController\">UITableViewController<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UITableViewController"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 2107,
+        "key.name" : "UrunListesiTableViewController",
+        "key.namelength" : 30,
+        "key.nameoffset" : 218,
+        "key.offset" : 212,
+        "key.parsed_declaration" : "class UrunListesiTableViewController: UITableViewController",
+        "key.parsed_scope.end" : 75,
+        "key.parsed_scope.start" : 13,
+        "key.runtime_name" : "_TtC4main30UrunListesiTableViewController",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var urunlistesi: [<Type usr=\"s:19TableViewController4UrunC\">Urun<\/Type>]<\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>urunlistesi<\/decl.name>: <decl.var.type>[<ref.class usr=\"s:19TableViewController4UrunC\">Urun<\/ref.class>]<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 28,
+            "key.name" : "urunlistesi",
+            "key.namelength" : 11,
+            "key.nameoffset" : 283,
+            "key.offset" : 279,
+            "key.parsed_declaration" : "var urunlistesi: [Urun] = []",
+            "key.parsed_scope.end" : 15,
+            "key.parsed_scope.start" : 15,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "[Urun]",
+            "key.typeusr" : "$sSay19TableViewController4UrunCGD",
+            "key.usr" : "s:19TableViewController011UrunListesiabC0C11urunlistesiSayAA0D0CGvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var images: [<Type usr=\"s:SS\">String<\/Type>]<\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>images<\/decl.name>: <decl.var.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct>]<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 41,
+            "key.name" : "images",
+            "key.namelength" : 6,
+            "key.nameoffset" : 316,
+            "key.offset" : 312,
+            "key.parsed_declaration" : "var images: [String] = [\"41\", \"34\", \"61\"]",
+            "key.parsed_scope.end" : 16,
+            "key.parsed_scope.start" : 16,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "[String]",
+            "key.typeusr" : "$sSaySSGD",
+            "key.usr" : "s:19TableViewController011UrunListesiabC0C6imagesSaySSGvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func viewDidLoad()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 363
+              }
+            ],
+            "key.bodylength" : 998,
+            "key.bodyoffset" : 392,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>viewDidLoad<\/decl.name>()<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 1019,
+            "key.name" : "viewDidLoad()",
+            "key.namelength" : 13,
+            "key.nameoffset" : 377,
+            "key.offset" : 372,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)viewDidLoad"
+              }
+            ],
+            "key.parsed_declaration" : "override func viewDidLoad()",
+            "key.parsed_scope.end" : 44,
+            "key.parsed_scope.start" : 18,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(UrunListesiTableViewController) -> () -> ()",
+            "key.typeusr" : "$syycD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunListesiTableViewController(im)viewDidLoad"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 30,
+            "key.name" : "MARK: - Table view data source",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 1401
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func numberOfSections(in tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 1437
+              }
+            ],
+            "key.bodylength" : 23,
+            "key.bodyoffset" : 1503,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>numberOfSections<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>in<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 81,
+            "key.name" : "numberOfSections(in:)",
+            "key.namelength" : 43,
+            "key.nameoffset" : 1451,
+            "key.offset" : 1446,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)numberOfSectionsInTableView:"
+              }
+            ],
+            "key.parsed_declaration" : "override func numberOfSections(in tableView: UITableView) -> Int",
+            "key.parsed_scope.end" : 52,
+            "key.parsed_scope.start" : 49,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(UrunListesiTableViewController) -> (UITableView) -> Int",
+            "key.typeusr" : "$s2inSiSo11UITableViewC_tcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunListesiTableViewController(im)numberOfSectionsInTableView:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func tableView(_ tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>, numberOfRowsInSection section: <Type usr=\"s:Si\">Int<\/Type>) -&gt; <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 1533
+              }
+            ],
+            "key.bodylength" : 39,
+            "key.bodyoffset" : 1627,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tableView<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>numberOfRowsInSection<\/decl.var.parameter.argument_label> <decl.var.parameter.name>section<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 125,
+            "key.name" : "tableView(_:numberOfRowsInSection:)",
+            "key.namelength" : 71,
+            "key.nameoffset" : 1547,
+            "key.offset" : 1542,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)tableView:numberOfRowsInSection:"
+              }
+            ],
+            "key.parsed_declaration" : "override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int",
+            "key.parsed_scope.end" : 57,
+            "key.parsed_scope.start" : 54,
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)UrunListesiTableViewController(im)tableView:cellForRowAtIndexPath:\">tableView(_:cellForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)UITableViewController(py)tableView\">tableView<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayCell:forRowAtIndexPath:\">tableView(_:willDisplay:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayHeaderView:forSection:\">tableView(_:willDisplayHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayFooterView:forSection:\">tableView(_:willDisplayFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingCell:forRowAtIndexPath:\">tableView(_:didEndDisplaying:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingHeaderView:forSection:\">tableView(_:didEndDisplayingHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingFooterView:forSection:\">tableView(_:didEndDisplayingFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForRowAtIndexPath:\">tableView(_:heightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForHeaderInSection:\">tableView(_:heightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForFooterInSection:\">tableView(_:heightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForRowAtIndexPath:\">tableView(_:estimatedHeightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForHeaderInSection:\">tableView(_:estimatedHeightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForFooterInSection:\">tableView(_:estimatedHeightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForHeaderInSection:\">tableView(_:viewForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForFooterInSection:\">tableView(_:viewForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:accessoryButtonTappedForRowWithIndexPath:\">tableView(_:accessoryButtonTappedForRowWith:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldHighlightRowAtIndexPath:\">tableView(_:shouldHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didHighlightRowAtIndexPath:\">tableView(_:didHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUnhighlightRowAtIndexPath:\">tableView(_:didUnhighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willSelectRowAtIndexPath:\">tableView(_:willSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDeselectRowAtIndexPath:\">tableView(_:willDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didSelectRowAtIndexPath:\">tableView(_:didSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didDeselectRowAtIndexPath:\">tableView(_:didDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editingStyleForRowAtIndexPath:\">tableView(_:editingStyleForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:\">tableView(_:titleForDeleteConfirmationButtonForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editActionsForRowAtIndexPath:\">tableView(_:editActionsForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:\">tableView(_:leadingSwipeActionsConfigurationForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:\">tableView(_:trailingSwipeActionsConfigurationForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldIndentWhileEditingRowAtIndexPath:\">tableView(_:shouldIndentWhileEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willBeginEditingRowAtIndexPath:\">tableView(_:willBeginEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndEditingRowAtIndexPath:\">tableView(_:didEndEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:\">tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:indentationLevelForRowAtIndexPath:\">tableView(_:indentationLevelForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldShowMenuForRowAtIndexPath:\">tableView(_:shouldShowMenuForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canPerformAction:forRowAtIndexPath:withSender:\">tableView(_:canPerformAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:performAction:forRowAtIndexPath:withSender:\">tableView(_:performAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canFocusRowAtIndexPath:\">tableView(_:canFocusRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldUpdateFocusInContext:\">tableView(_:shouldUpdateFocusIn:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUpdateFocusInContext:withAnimationCoordinator:\">tableView(_:didUpdateFocusIn:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldSpringLoadRowAtIndexPath:withContext:\">tableView(_:shouldSpringLoadRowAt:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldBeginMultipleSelectionInteractionAtIndexPath:\">tableView(_:shouldBeginMultipleSelectionInteractionAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didBeginMultipleSelectionInteractionAtIndexPath:\">tableView(_:didBeginMultipleSelectionInteractionAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:contextMenuConfigurationForRowAtIndexPath:point:\">tableView(_:contextMenuConfigurationForRowAt:point:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:previewForHighlightingContextMenuWithConfiguration:\">tableView(_:previewForHighlightingContextMenuWithConfiguration:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:previewForDismissingContextMenuWithConfiguration:\">tableView(_:previewForDismissingContextMenuWithConfiguration:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willPerformPreviewActionForMenuWithConfiguration:animator:\">tableView(_:willPerformPreviewActionForMenuWith:animator:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForHeaderInSection:\">tableView(_:titleForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForFooterInSection:\">tableView(_:titleForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canEditRowAtIndexPath:\">tableView(_:canEditRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canMoveRowAtIndexPath:\">tableView(_:canMoveRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:sectionForSectionIndexTitle:atIndex:\">tableView(_:sectionForSectionIndexTitle:at:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:commitEditingStyle:forRowAtIndexPath:\">tableView(_:commit:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:moveRowAtIndexPath:toIndexPath:\">tableView(_:moveRowAt:to:)<\/RelatedName>"
+              }
+            ],
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(UrunListesiTableViewController) -> (UITableView, Int) -> Int",
+            "key.typeusr" : "$s_21numberOfRowsInSectionSiSo11UITableViewC_SitcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunListesiTableViewController(im)tableView:numberOfRowsInSection:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func tableView(_ tableView: <Type usr=\"c:objc(cs)UITableView\">UITableView<\/Type>, cellForRowAt indexPath: <Type usr=\"s:10Foundation9IndexPathV\">IndexPath<\/Type>) -&gt; <Type usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 1678
+              }
+            ],
+            "key.bodylength" : 528,
+            "key.bodyoffset" : 1783,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>tableView<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>tableView<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UITableView\">UITableView<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>cellForRowAt<\/decl.var.parameter.argument_label> <decl.var.parameter.name>indexPath<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation9IndexPathV\">IndexPath<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/ref.class><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 625,
+            "key.name" : "tableView(_:cellForRowAt:)",
+            "key.namelength" : 70,
+            "key.nameoffset" : 1692,
+            "key.offset" : 1687,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UITableViewDataSource(im)tableView:cellForRowAtIndexPath:"
+              }
+            ],
+            "key.parsed_declaration" : "override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell",
+            "key.parsed_scope.end" : 73,
+            "key.parsed_scope.start" : 60,
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:@M@TableViewController@objc(cs)UrunListesiTableViewController(im)tableView:numberOfRowsInSection:\">tableView(_:numberOfRowsInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)UITableViewController(py)tableView\">tableView<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayCell:forRowAtIndexPath:\">tableView(_:willDisplay:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayHeaderView:forSection:\">tableView(_:willDisplayHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDisplayFooterView:forSection:\">tableView(_:willDisplayFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingCell:forRowAtIndexPath:\">tableView(_:didEndDisplaying:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingHeaderView:forSection:\">tableView(_:didEndDisplayingHeaderView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndDisplayingFooterView:forSection:\">tableView(_:didEndDisplayingFooterView:forSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForRowAtIndexPath:\">tableView(_:heightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForHeaderInSection:\">tableView(_:heightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:heightForFooterInSection:\">tableView(_:heightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForRowAtIndexPath:\">tableView(_:estimatedHeightForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForHeaderInSection:\">tableView(_:estimatedHeightForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:estimatedHeightForFooterInSection:\">tableView(_:estimatedHeightForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForHeaderInSection:\">tableView(_:viewForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:viewForFooterInSection:\">tableView(_:viewForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:accessoryButtonTappedForRowWithIndexPath:\">tableView(_:accessoryButtonTappedForRowWith:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldHighlightRowAtIndexPath:\">tableView(_:shouldHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didHighlightRowAtIndexPath:\">tableView(_:didHighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUnhighlightRowAtIndexPath:\">tableView(_:didUnhighlightRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willSelectRowAtIndexPath:\">tableView(_:willSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willDeselectRowAtIndexPath:\">tableView(_:willDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didSelectRowAtIndexPath:\">tableView(_:didSelectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didDeselectRowAtIndexPath:\">tableView(_:didDeselectRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editingStyleForRowAtIndexPath:\">tableView(_:editingStyleForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:\">tableView(_:titleForDeleteConfirmationButtonForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:editActionsForRowAtIndexPath:\">tableView(_:editActionsForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:leadingSwipeActionsConfigurationForRowAtIndexPath:\">tableView(_:leadingSwipeActionsConfigurationForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:trailingSwipeActionsConfigurationForRowAtIndexPath:\">tableView(_:trailingSwipeActionsConfigurationForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldIndentWhileEditingRowAtIndexPath:\">tableView(_:shouldIndentWhileEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willBeginEditingRowAtIndexPath:\">tableView(_:willBeginEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didEndEditingRowAtIndexPath:\">tableView(_:didEndEditingRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath:\">tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:indentationLevelForRowAtIndexPath:\">tableView(_:indentationLevelForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldShowMenuForRowAtIndexPath:\">tableView(_:shouldShowMenuForRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canPerformAction:forRowAtIndexPath:withSender:\">tableView(_:canPerformAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:performAction:forRowAtIndexPath:withSender:\">tableView(_:performAction:forRowAt:withSender:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:canFocusRowAtIndexPath:\">tableView(_:canFocusRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldUpdateFocusInContext:\">tableView(_:shouldUpdateFocusIn:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didUpdateFocusInContext:withAnimationCoordinator:\">tableView(_:didUpdateFocusIn:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldSpringLoadRowAtIndexPath:withContext:\">tableView(_:shouldSpringLoadRowAt:with:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:shouldBeginMultipleSelectionInteractionAtIndexPath:\">tableView(_:shouldBeginMultipleSelectionInteractionAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:didBeginMultipleSelectionInteractionAtIndexPath:\">tableView(_:didBeginMultipleSelectionInteractionAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:contextMenuConfigurationForRowAtIndexPath:point:\">tableView(_:contextMenuConfigurationForRowAt:point:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:previewForHighlightingContextMenuWithConfiguration:\">tableView(_:previewForHighlightingContextMenuWithConfiguration:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:previewForDismissingContextMenuWithConfiguration:\">tableView(_:previewForDismissingContextMenuWithConfiguration:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDelegate(im)tableView:willPerformPreviewActionForMenuWithConfiguration:animator:\">tableView(_:willPerformPreviewActionForMenuWith:animator:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForHeaderInSection:\">tableView(_:titleForHeaderInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:titleForFooterInSection:\">tableView(_:titleForFooterInSection:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canEditRowAtIndexPath:\">tableView(_:canEditRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:canMoveRowAtIndexPath:\">tableView(_:canMoveRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:sectionForSectionIndexTitle:atIndex:\">tableView(_:sectionForSectionIndexTitle:at:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:commitEditingStyle:forRowAtIndexPath:\">tableView(_:commit:forRowAt:)<\/RelatedName>"
+              },
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(pl)UITableViewDataSource(im)tableView:moveRowAtIndexPath:toIndexPath:\">tableView(_:moveRowAt:to:)<\/RelatedName>"
+              }
+            ],
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>let cell: <Type usr=\"c:@M@TableViewController@objc(cs)UrunTableViewCell\">UrunTableViewCell<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>cell<\/decl.name>: <decl.var.type><ref.class usr=\"c:@M@TableViewController@objc(cs)UrunTableViewCell\">UrunTableViewCell<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 106,
+                "key.name" : "cell",
+                "key.namelength" : 4,
+                "key.nameoffset" : 1796,
+                "key.offset" : 1792,
+                "key.parsed_declaration" : "let cell = tableView.dequeueReusableCell(withIdentifier: \"UrunCell\", for: indexPath) as! UrunTableViewCell",
+                "key.parsed_scope.end" : 61,
+                "key.parsed_scope.start" : 61,
+                "key.typename" : "UrunTableViewCell",
+                "key.typeusr" : "$s19TableViewController04UrunaB4CellCD",
+                "key.usr" : "s:19TableViewController011UrunListesiabC0C05tableB0_12cellForRowAtSo07UITableB4CellCSo0kB0C_10Foundation9IndexPathVtF0G0L_AA0dabL0Cvp"
+              },
+              {
+                "key.annotated_decl" : "<Declaration>let indis: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunListesiTableViewController.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>indis<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 25,
+                "key.name" : "indis",
+                "key.namelength" : 5,
+                "key.nameoffset" : 1912,
+                "key.offset" : 1908,
+                "key.parsed_declaration" : "let indis = indexPath.row",
+                "key.parsed_scope.end" : 63,
+                "key.parsed_scope.start" : 63,
+                "key.typename" : "Int",
+                "key.typeusr" : "$sSiD",
+                "key.usr" : "s:19TableViewController011UrunListesiabC0C05tableB0_12cellForRowAtSo07UITableB4CellCSo0kB0C_10Foundation9IndexPathVtF5indisL_Sivp"
+              }
+            ],
+            "key.typename" : "(UrunListesiTableViewController) -> (UITableView, IndexPath) -> UITableViewCell",
+            "key.typeusr" : "$s_12cellForRowAtSo15UITableViewCellCSo0eF0C_10Foundation9IndexPathVtcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunListesiTableViewController(im)tableView:cellForRowAtIndexPath:"
+          }
+        ],
+        "key.typename" : "UrunListesiTableViewController.Type",
+        "key.typeusr" : "$s19TableViewController011UrunListesiabC0CmD",
+        "key.usr" : "c:@M@TableViewController@objc(cs)UrunListesiTableViewController"
+      }
+    ]
+  }
+}, {
+  "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 663,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class UrunTableViewCell : <Type usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/Type><\/Declaration>",
+        "key.bodylength" : 455,
+        "key.bodyoffset" : 206,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 15,
+            "key.offset" : 189
+          }
+        ],
+        "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>UrunTableViewCell<\/decl.name> : <ref.class usr=\"c:objc(cs)UITableViewCell\">UITableViewCell<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UITableViewCell"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 498,
+        "key.name" : "UrunTableViewCell",
+        "key.namelength" : 17,
+        "key.nameoffset" : 170,
+        "key.offset" : 164,
+        "key.parsed_declaration" : "class UrunTableViewCell: UITableViewCell",
+        "key.parsed_scope.end" : 28,
+        "key.parsed_scope.start" : 11,
+        "key.runtime_name" : "_TtC4main17UrunTableViewCell",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var sehirId: <Type usr=\"c:objc(cs)UILabel\">UILabel<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 222
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 212
+              }
+            ],
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>sehirId<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UILabel\">UILabel<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 21,
+            "key.name" : "sehirId",
+            "key.namelength" : 7,
+            "key.nameoffset" : 231,
+            "key.offset" : 227,
+            "key.parsed_declaration" : "@IBOutlet weak var sehirId: UILabel!",
+            "key.parsed_scope.end" : 13,
+            "key.parsed_scope.start" : 13,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UILabel?",
+            "key.typeusr" : "$sSo7UILabelCSgD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell(py)sehirId"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var Id: <Type usr=\"c:objc(cs)UILabel\">UILabel<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 263
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 253
+              }
+            ],
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>Id<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UILabel\">UILabel<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 16,
+            "key.name" : "Id",
+            "key.namelength" : 2,
+            "key.nameoffset" : 272,
+            "key.offset" : 268,
+            "key.parsed_declaration" : "@IBOutlet weak var Id: UILabel!",
+            "key.parsed_scope.end" : 14,
+            "key.parsed_scope.start" : 14,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UILabel?",
+            "key.typeusr" : "$sSo7UILabelCSgD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell(py)Id"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var imgResim: <Type usr=\"c:objc(cs)UIImageView\">UIImageView<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 299
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 289
+              }
+            ],
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>imgResim<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIImageView\">UIImageView<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 26,
+            "key.name" : "imgResim",
+            "key.namelength" : 8,
+            "key.nameoffset" : 308,
+            "key.offset" : 304,
+            "key.parsed_declaration" : "@IBOutlet weak var imgResim: UIImageView!",
+            "key.parsed_scope.end" : 15,
+            "key.parsed_scope.start" : 15,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIImageView?",
+            "key.typeusr" : "$sSo11UIImageViewCSgD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell(py)imgResim"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var urunSwitch: <Type usr=\"c:objc(cs)UISwitch\">UISwitch<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 345
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 335
+              }
+            ],
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>urunSwitch<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UISwitch\">UISwitch<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 25,
+            "key.name" : "urunSwitch",
+            "key.namelength" : 10,
+            "key.nameoffset" : 354,
+            "key.offset" : 350,
+            "key.parsed_declaration" : "@IBOutlet weak var urunSwitch: UISwitch!",
+            "key.parsed_scope.end" : 16,
+            "key.parsed_scope.start" : 16,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UISwitch?",
+            "key.typeusr" : "$sSo8UISwitchCSgD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell(py)urunSwitch"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func awakeFromNib()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 380
+              }
+            ],
+            "key.bodylength" : 65,
+            "key.bodyoffset" : 410,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>awakeFromNib<\/decl.name>()<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 87,
+            "key.name" : "awakeFromNib()",
+            "key.namelength" : 14,
+            "key.nameoffset" : 394,
+            "key.offset" : 389,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)NSObject(im)awakeFromNib"
+              }
+            ],
+            "key.parsed_declaration" : "override func awakeFromNib()",
+            "key.parsed_scope.end" : 20,
+            "key.parsed_scope.start" : 17,
+            "key.related_decls" : [
+              {
+                "key.annotated_decl" : "<RelatedName usr=\"c:objc(cs)NSObject(im)awakeFromNib\">awakeFromNib()<\/RelatedName>"
+              }
+            ],
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(UrunTableViewCell) -> () -> ()",
+            "key.typeusr" : "$syycD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell(im)awakeFromNib"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func setSelected(_ selected: <Type usr=\"s:Sb\">Bool<\/Type>, animated: <Type usr=\"s:Sb\">Bool<\/Type>)<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 482
+              }
+            ],
+            "key.bodylength" : 115,
+            "key.bodyoffset" : 543,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Controller\/UrunTableViewCell.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>setSelected<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>selected<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>animated<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 168,
+            "key.name" : "setSelected(_:animated:)",
+            "key.namelength" : 45,
+            "key.nameoffset" : 496,
+            "key.offset" : 491,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UITableViewCell(im)setSelected:animated:"
+              }
+            ],
+            "key.parsed_declaration" : "override func setSelected(_ selected: Bool, animated: Bool)",
+            "key.parsed_scope.end" : 26,
+            "key.parsed_scope.start" : 22,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(UrunTableViewCell) -> (Bool, Bool) -> ()",
+            "key.typeusr" : "$s_8animatedySb_SbtcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell(im)setSelected:animated:"
+          }
+        ],
+        "key.typename" : "UrunTableViewCell.Type",
+        "key.typeusr" : "$s19TableViewController04UrunaB4CellCmD",
+        "key.usr" : "c:@M@TableViewController@objc(cs)UrunTableViewCell"
+      }
+    ]
+  }
+}, {
+  "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 409,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class Urun<\/Declaration>",
+        "key.bodylength" : 226,
+        "key.bodyoffset" : 181,
+        "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>Urun<\/decl.name><\/decl.class>",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 239,
+        "key.name" : "Urun",
+        "key.namelength" : 4,
+        "key.nameoffset" : 175,
+        "key.offset" : 169,
+        "key.parsed_declaration" : "class Urun",
+        "key.parsed_scope.end" : 27,
+        "key.parsed_scope.start" : 12,
+        "key.runtime_name" : "_TtC4main4Urun",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var Id: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>Id<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 11,
+            "key.name" : "Id",
+            "key.namelength" : 2,
+            "key.nameoffset" : 195,
+            "key.offset" : 191,
+            "key.parsed_declaration" : "var Id: Int",
+            "key.parsed_scope.end" : 14,
+            "key.parsed_scope.start" : 14,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "Int",
+            "key.typeusr" : "$sSiD",
+            "key.usr" : "s:19TableViewController4UrunC2IdSivp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var SehirId: <Type usr=\"s:Si\">Int<\/Type><\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>SehirId<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Si\">Int<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 16,
+            "key.name" : "SehirId",
+            "key.namelength" : 7,
+            "key.nameoffset" : 211,
+            "key.offset" : 207,
+            "key.parsed_declaration" : "var SehirId: Int",
+            "key.parsed_scope.end" : 15,
+            "key.parsed_scope.start" : 15,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "Int",
+            "key.typeusr" : "$sSiD",
+            "key.usr" : "s:19TableViewController4UrunC7SehirIdSivp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var resim: <Type usr=\"c:objc(cs)UIImage\">UIImage<\/Type>?<\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>resim<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIImage\">UIImage<\/ref.class>?<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 19,
+            "key.name" : "resim",
+            "key.namelength" : 5,
+            "key.nameoffset" : 232,
+            "key.offset" : 228,
+            "key.parsed_declaration" : "var resim: UIImage?",
+            "key.parsed_scope.end" : 16,
+            "key.parsed_scope.start" : 16,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIImage?",
+            "key.typeusr" : "$sSo7UIImageCSgD",
+            "key.usr" : "s:19TableViewController4UrunC5resimSo7UIImageCSgvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var urunSwitch: <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>urunSwitch<\/decl.name>: <decl.var.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 20,
+            "key.name" : "urunSwitch",
+            "key.namelength" : 10,
+            "key.nameoffset" : 256,
+            "key.offset" : 252,
+            "key.parsed_declaration" : "var urunSwitch: Bool",
+            "key.parsed_scope.end" : 17,
+            "key.parsed_scope.start" : 17,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "Bool",
+            "key.typeusr" : "$sSbD",
+            "key.usr" : "s:19TableViewController4UrunC10urunSwitchSbvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>init()<\/Declaration>",
+            "key.bodylength" : 91,
+            "key.bodyoffset" : 309,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/Model\/Urun.swift",
+            "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>init<\/syntaxtype.keyword>()<\/decl.function.constructor>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 100,
+            "key.name" : "init()",
+            "key.namelength" : 6,
+            "key.nameoffset" : 301,
+            "key.offset" : 301,
+            "key.parsed_declaration" : "init()",
+            "key.parsed_scope.end" : 25,
+            "key.parsed_scope.start" : 20,
+            "key.typename" : "(Urun.Type) -> () -> Urun",
+            "key.typeusr" : "$s19TableViewController4UrunCycD",
+            "key.usr" : "s:19TableViewController4UrunCACycfc"
+          }
+        ],
+        "key.typename" : "Urun.Type",
+        "key.typeusr" : "$s19TableViewController4UrunCmD",
+        "key.usr" : "s:19TableViewController4UrunC"
+      }
+    ]
+  }
+}, {
+  "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 2350,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class SceneDelegate : <Type usr=\"c:objc(cs)UIResponder\">UIResponder<\/Type>, <Type usr=\"c:objc(pl)UIWindowSceneDelegate\">UIWindowSceneDelegate<\/Type><\/Declaration>",
+        "key.bodylength" : 2130,
+        "key.bodyoffset" : 217,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 11,
+            "key.offset" : 181
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 21,
+            "key.offset" : 194
+          }
+        ],
+        "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>SceneDelegate<\/decl.name> : <ref.class usr=\"c:objc(cs)UIResponder\">UIResponder<\/ref.class>, <ref.protocol usr=\"c:objc(pl)UIWindowSceneDelegate\">UIWindowSceneDelegate<\/ref.protocol><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIResponder"
+          },
+          {
+            "key.name" : "UIWindowSceneDelegate"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 2188,
+        "key.name" : "SceneDelegate",
+        "key.namelength" : 13,
+        "key.nameoffset" : 166,
+        "key.offset" : 160,
+        "key.parsed_declaration" : "class SceneDelegate: UIResponder, UIWindowSceneDelegate",
+        "key.parsed_scope.end" : 52,
+        "key.parsed_scope.start" : 11,
+        "key.runtime_name" : "_TtC4main13SceneDelegate",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var window: <Type usr=\"c:objc(cs)UIWindow\">UIWindow<\/Type>?<\/Declaration>",
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>window<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIWindow\">UIWindow<\/ref.class>?<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 21,
+            "key.name" : "window",
+            "key.namelength" : 6,
+            "key.nameoffset" : 227,
+            "key.offset" : 223,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIWindowSceneDelegate(py)window"
+              }
+            ],
+            "key.parsed_declaration" : "var window: UIWindow?",
+            "key.parsed_scope.end" : 13,
+            "key.parsed_scope.start" : 13,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIWindow?",
+            "key.typeusr" : "$sSo8UIWindowCSgD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(py)window"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func scene(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>, willConnectTo session: <Type usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/Type>, options connectionOptions: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>.<Type usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/Type>)<\/Declaration>",
+            "key.bodylength" : 457,
+            "key.bodyoffset" : 374,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>scene<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>willConnectTo<\/decl.var.parameter.argument_label> <decl.var.parameter.name>session<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>options<\/decl.var.parameter.argument_label> <decl.var.parameter.name>connectionOptions<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class>.<ref.class usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 581,
+            "key.name" : "scene(_:willConnectTo:options:)",
+            "key.namelength" : 116,
+            "key.nameoffset" : 256,
+            "key.offset" : 251,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)scene:willConnectToSession:options:"
+              }
+            ],
+            "key.parsed_declaration" : "func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions)",
+            "key.parsed_scope.end" : 21,
+            "key.parsed_scope.start" : 16,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene, UISceneSession, UIScene.ConnectionOptions) -> ()",
+            "key.typeusr" : "$s_13willConnectTo7optionsySo7UISceneC_So0E7SessionCSo0E17ConnectionOptionsCtcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func sceneDidDisconnect(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>)<\/Declaration>",
+            "key.bodylength" : 432,
+            "key.bodyoffset" : 881,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>sceneDidDisconnect<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 476,
+            "key.name" : "sceneDidDisconnect(_:)",
+            "key.namelength" : 36,
+            "key.nameoffset" : 843,
+            "key.offset" : 838,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)sceneDidDisconnect:"
+              }
+            ],
+            "key.parsed_declaration" : "func sceneDidDisconnect(_ scene: UIScene)",
+            "key.parsed_scope.end" : 28,
+            "key.parsed_scope.start" : 23,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene) -> ()",
+            "key.typeusr" : "$syySo7UISceneCcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(im)sceneDidDisconnect:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func sceneDidBecomeActive(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>)<\/Declaration>",
+            "key.bodylength" : 206,
+            "key.bodyoffset" : 1365,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>sceneDidBecomeActive<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 252,
+            "key.name" : "sceneDidBecomeActive(_:)",
+            "key.namelength" : 38,
+            "key.nameoffset" : 1325,
+            "key.offset" : 1320,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)sceneDidBecomeActive:"
+              }
+            ],
+            "key.parsed_declaration" : "func sceneDidBecomeActive(_ scene: UIScene)",
+            "key.parsed_scope.end" : 33,
+            "key.parsed_scope.start" : 30,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene) -> ()",
+            "key.typeusr" : "$syySo7UISceneCcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(im)sceneDidBecomeActive:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func sceneWillResignActive(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>)<\/Declaration>",
+            "key.bodylength" : 178,
+            "key.bodyoffset" : 1624,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>sceneWillResignActive<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 225,
+            "key.name" : "sceneWillResignActive(_:)",
+            "key.namelength" : 39,
+            "key.nameoffset" : 1583,
+            "key.offset" : 1578,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)sceneWillResignActive:"
+              }
+            ],
+            "key.parsed_declaration" : "func sceneWillResignActive(_ scene: UIScene)",
+            "key.parsed_scope.end" : 38,
+            "key.parsed_scope.start" : 35,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene) -> ()",
+            "key.typeusr" : "$syySo7UISceneCcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(im)sceneWillResignActive:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func sceneWillEnterForeground(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>)<\/Declaration>",
+            "key.bodylength" : 167,
+            "key.bodyoffset" : 1858,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>sceneWillEnterForeground<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 217,
+            "key.name" : "sceneWillEnterForeground(_:)",
+            "key.namelength" : 42,
+            "key.nameoffset" : 1814,
+            "key.offset" : 1809,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)sceneWillEnterForeground:"
+              }
+            ],
+            "key.parsed_declaration" : "func sceneWillEnterForeground(_ scene: UIScene)",
+            "key.parsed_scope.end" : 43,
+            "key.parsed_scope.start" : 40,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene) -> ()",
+            "key.typeusr" : "$syySo7UISceneCcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(im)sceneWillEnterForeground:"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func sceneDidEnterBackground(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>)<\/Declaration>",
+            "key.bodylength" : 263,
+            "key.bodyoffset" : 2080,
+            "key.filepath" : "\/Users\/apple\/Desktop\/Örnekler\/TableViewController\/TableViewController\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>sceneDidEnterBackground<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 312,
+            "key.name" : "sceneDidEnterBackground(_:)",
+            "key.namelength" : 41,
+            "key.nameoffset" : 2037,
+            "key.offset" : 2032,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)sceneDidEnterBackground:"
+              }
+            ],
+            "key.parsed_declaration" : "func sceneDidEnterBackground(_ scene: UIScene)",
+            "key.parsed_scope.end" : 49,
+            "key.parsed_scope.start" : 45,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene) -> ()",
+            "key.typeusr" : "$syySo7UISceneCcD",
+            "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate(im)sceneDidEnterBackground:"
+          }
+        ],
+        "key.typename" : "SceneDelegate.Type",
+        "key.typeusr" : "$s19TableViewController13SceneDelegateCmD",
+        "key.usr" : "c:@M@TableViewController@objc(cs)SceneDelegate"
+      }
+    ]
+  }
+}]
